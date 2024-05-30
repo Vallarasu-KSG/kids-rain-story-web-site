@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body video
+{
+    height: 120vh;
+    position: fixed;
+    background-size: cover;
+}
+.content
+{
+    position: relative;
+    
+}
+.content h1
+{
+    color: red;
+    font-size:300%;
+    text-align: center;
+    padding: 2% 2% 5% 2%;
+    /* font-weight: bold; */
+    font-style: italic;
+    text-decoration:underline;
+}
+.content .p1
+{
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     */
+     margin-left: 8%;
+     margin-right: 8%;
+     font-family:cursive;
+     color: rgb(178, 226, 5);
+    font-size: 200%;
+    text-indent:10ch;
+    padding: 10px;
+    text-align: justify;
+}
+.content .p1
+{
+    background-color: 137, 137, 137,.1;
+    backdrop-filter: blur(10px);
+}
+.content .p1:hover
+{
+    color:black;
+}
